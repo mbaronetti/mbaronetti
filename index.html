@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+		<title>Shaky Buttons</title>
+		<!-- Import Bootstrap 4.0 -->
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" >
+		<!-- Import FontAwesome 4.7 -->
+		<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+		<!-- Import Custom Styles -->
+		<link rel="stylesheet" href="assets/shaky-buttons/shaky-buttons.css">
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+			/* Styles for example - not included in main css files */
+			html, body, section{height: 100%}
+			body{font-family: 'PT Sans', sans-serif;background-color: #f8f8f8}
+			.sample-container{
+			  margin: 30px auto;
+			  width: 70%;
+			}
+			.sample-container h3 {
+			  border-bottom: 1px solid #ccc;
+			}
+			img{width: 100%;}
+			.purchased-container{position: relative;}
+			.purchased-container:hover .purchased-text{display: block;}
+			.purchased-text{
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    width: 100%;
+			    height: 100%;
+			    background: rgba(0, 0, 0, 0.75);
+			    color: #fff;
+			    font-size: 2em;
+			    text-align: center;
+			    padding-top: 150px;
+				display: none;
+				}
+				ul{
+				    box-shadow: inset 0 0.1em 1em black;
+				    border: none;
+				    padding: 10px!important;
+				    background: crimson;
+				    color: #fff;
+				    margin: 20px auto;
+				}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="text-center">Shaky Buttons</h1>
+						<br>
+						<a href="#" class="mx-auto d-block sb-large shaky-button  sb-round-left sb-rotate45 sb-infinite sb-zoom "><span class="sb-inner-box  "></span><span class="sb-outer-box  "></span><span class="sb-icon"><i class="fa fa-twitter"></i></span></a>
+						<ul class="list-unstyled">
+							<li>
+								<i class="fa fa-check"></i>
+								<span>17 colors palette (Combine backgrounds, icons and borders color)</span>
+							</li>
+							<li>
+								<i class="fa fa-check"></i>
+								<span>Up to 4 different sizes</span>
+							</li>
+							<li>
+								<i class="fa fa-check"></i>
+								<span>Up to 5 different shapes</span>
+							</li>
+							<li>
+								<i class="fa fa-check"></i>
+								<span>Up to 22 animations... Combinable!</span>
+							</li>
+							<li>
+								<i class="fa fa-check"></i>
+								<span>Looping animations!</span>
+							</li>
+							<li>
+								<i class="fa fa-check"></i>
+								<span>Combine shapes, sizes, colors and animations</span>
+							</li>
+							<li>
+								<i class="fa fa-check"></i>
+								<span>Retina ready</span>
+							</li>
+							<li>
+								<i class="fa fa-check"></i>
+								<span>Pure CSS3</span>
+							</li>
+							<li>
+								<i class="fa fa-check"></i>
+								<span>No Javascript</span>
+							</li>
+							<li>
+								<i class="fa fa-check"></i>
+								<span>Fontawesome 4.7</span>
+							</li>
+							<li>
+								<i class="fa fa-check"></i>
+								<span>Bootstrap 3 & 4 Compatible</span>
+							</li>
+							<li>
+								<i class="fa fa-check"></i>
+								<span>Crossbrowser</span>
+							</li>
+							<li>
+								<i class="fa fa-check"></i>
+								<span>Clean</span>
+							</li>
+							<li>
+								<i class="fa fa-check"></i>
+								<span>Well documented</span>
+							</li>
+							<li>
+								<i class="fa fa-check"></i>
+								<span>Support</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+		</div>
+		<div class="container">
+				<div class="row">
+					<div class="col-sm-6 offset-sm-3">
+					<h2>Few samples...</h2>
+					<small class="d-block text-muted"><i>And this is just a few ugly ones... you'll be able to create infinite different kind of buttons.</i></small>
+					<hr>
+					<div id="samples">
+							<a href="#" class="shaky-button sb-rounded   sb-round-left sb-rotate45 sb-large sb-infinite sb-zoom "><span class="sb-inner-box  "></span><span class="sb-outer-box  "></span><span class="sb-icon"><i class="fa fa-twitter"></i></span></a><a href="#" class="shaky-button   sb-medium sb-rotate45 sb-rotate-single1 null "><span class="sb-inner-box  "></span><span class="sb-outer-box  "></span><span class="sb-icon"><i class="fa fa-facebook"></i></span></a><a href="#" class="shaky-button    sb-rotate-single1 sb-rotateY null  "><span class="sb-inner-box  "></span><span class="sb-outer-box  "></span><span class="sb-icon"><i class="fa fa-instagram"></i></span></a><a href="#" class="shaky-button    sb-rotate-single sb-round null  "><span class="sb-inner-box  "></span><span class="sb-outer-box  "></span><span class="sb-icon"><i class="fa fa-yelp"></i></span></a><a href="#" class="shaky-button sb-half-left-rounded   sb-round-right sb-rotateY null  "><span class="sb-inner-box sb-white-bg sb-blueHole-border"></span><span class="sb-outer-box sb-blueHole-bg sb-blueHole-border"></span><span class="sb-icon"><i class="fa fa-tumblr"></i></span></a><a href="#" class="shaky-button   sb-white-color sb-round sb-zoom sb-infinite "><span class="sb-inner-box sb-blueRiver-bg sb-blueRiver-border"></span><span class="sb-outer-box sb-blueRiver-bg sb-white-border"></span><span class="sb-icon"><i class="fa fa-snapchat"></i></span></a><a href="#" class="shaky-button sb-rounded  sb-white-color sb-round sb-rotate-single1 null  "><span class="sb-inner-box sb-blueRiver-bg sb-blueRiver-border"></span><span class="sb-outer-box sb-blueRiver-bg sb-blueRiver-border"></span><span class="sb-icon"><i class="fa fa-bullseye"></i></span></a><a href="#" class="shaky-button    sb-rotate45 sb-shadow ">
+						  <span class="sb-inner-box sb-white-bg "></span>
+						  <span class="sb-outer-box sb-sun-bg "></span>
+						  <span class="sb-icon">
+						     <i class="fa fa-bandcamp"></i>
+						  </span>
+							</a><a href="#" class="shaky-button sb-circle  sb-pomegranate-color  sb-shadow sb-bell sb-infinite ">
+						  <span class="sb-inner-box sb-white-bg sb-white-border"></span>
+						  <span class="sb-outer-box sb-white-bg sb-white-border"></span>
+						  <span class="sb-icon">
+						     <i class="fa fa-bell"></i>
+						  </span>
+						</a><a href="#" class="shaky-button sb-half-right-rounded  sb-sun-color sb-round-left Animtaion 2 null  "><span class="sb-inner-box sb-pumpkin-bg sb-pumpkin-border"></span><span class="sb-outer-box sb-pumpkin-bg sb-pumpkin-border"></span><span class="sb-icon"><i class="fa fa-amazon"></i></span></a><a href="#" class="shaky-button sb-square  sb-white-color sb-shake sb-rotate45 sb-scale sb-infinite  "><span class="sb-inner-box sb-esmerald-bg sb-esmerald-border"></span><span class="sb-outer-box sb-esmerald-bg sb-esmerald-border"></span><span class="sb-icon"><i class="fa fa-bed"></i></span></a><a href="#" class="shaky-button sb-half-left-rounded  sb-pomegranate-color sb-rotateY sb-shadow    "><span class="sb-inner-box sb-white-bg sb-black-border"></span><span class="sb-outer-box sb-black-bg sb-black-border"></span><span class="sb-icon"><i class="fa fa-archive"></i></span></a><a href="#" class="shaky-button sb-half-left-rounded  sb-white-color sb-rotateY sb-bell sb-infinite"><span class="sb-inner-box sb-wisteria-bg sb-white-border"></span><span class="sb-outer-box sb-wisteria-bg sb-white-border"></span><span class="sb-icon"><i class="fa fa-twitter"></i></span></a><a href="#" class="shaky-button sb-circle  sb-black-color sb-rotateY sb-shadow    "><span class="sb-inner-box sb-white-bg sb-orange-border"></span><span class="sb-outer-box sb-white-bg sb-orange-border"></span><span class="sb-icon"><i class="fa fa-bolt"></i></span></a><a href="#" class="shaky-button sb-circle  sb-white-color sb-scale1 sb-rotate null "><span class="sb-inner-box sb-black-bg sb-black-border"></span><span class="sb-outer-box sb-white-bg sb-black-border"></span><span class="sb-icon"><i class="fa fa-bomb"></i></span></a><a href="#" class="shaky-button sb-half-left-rounded  sb-greenSea-color sb-slide-top-left sb-round-right ">
+						  <span class="sb-inner-box sb-white-bg sb-asbestos-border"></span>
+						  <span class="sb-outer-box sb-black-bg sb-esmerald-border"></span>
+						  <span class="sb-icon">
+						     <i class="fa fa-car"></i>
+						  </span>
+						</a><a href="#" class="shaky-button sb-circle  sb-sun-color sb-rotateY sb-shadow null  "><span class="sb-inner-box sb-black-bg sb-white-border"></span><span class="sb-outer-box sb-black-bg sb-alizarin-border"></span><span class="sb-icon"><i class="fa fa-twitter"></i></span></a><a href="#" class="shaky-button sb-rounded  sb-white-color sb-scale sb-rotateY ">
+							  <span class="sb-inner-box sb-black-bg sb-esmerald-border"></span>
+							  <span class="sb-outer-box sb-black-bg sb-esmerald-border"></span>
+							  <span class="sb-icon">
+							     <i class="fa fa-braille"></i>
+							  </span>
+							</a><a href="#" class="shaky-button sb-rounded  sb-pomegranate-color sb-round   "><span class="sb-inner-box  sb-pomegranate-border"></span><span class="sb-outer-box sb-white-bg "></span><span class="sb-icon"><i class="fa fa-circle-o"></i></span></a><a href="#" class="shaky-button sb-rounded  sb-sun-color sb-scale sb-round   "><span class="sb-inner-box sb-midnight-bg sb-black-border"></span><span class="sb-outer-box sb-white-bg sb-black-border"></span><span class="sb-icon"><i class="fa fa-certificate"></i></span></a><a href="#" class="shaky-button sb-square  sb-asbestos-color sb-shadow sb-scale   "><span class="sb-inner-box sb-midnight-bg sb-black-border"></span><span class="sb-outer-box sb-white-bg sb-black-border"></span><span class="sb-icon"><i class="fa fa-chrome"></i></span></a>
+					</div>
+				</div>
+				<div class="col-sm-12 mt-5">
+					<h2>Button generator...</h2>
+					<hr>
+					<div class="purchased-container">
+						<div class="purchased-text">
+							<p>Available in purchased version</p>
+						</div>
+						<img src="sample.png" alt="sample">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
